@@ -3,9 +3,7 @@ import ReverseModule.ReversePOA;
 import java.lang.String; 
 
 class ReverseImpl extends ReversePOA
-
 {
-
 	ReverseImpl()
 
 	{
@@ -22,7 +20,7 @@ class ReverseImpl extends ReversePOA
 
 		StringBuffer str=new StringBuffer(name); 
 
-		str.reverse(); 
+		str.reverse();
 
 		return (("Server Send "+str));
 
