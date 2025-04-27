@@ -38,9 +38,7 @@ class ReverseServer
 			System.out.println("Reverse Server reading and waiting....");
 
 			orb.run();
-
 		}
-
 		catch (Exception e)
 		{
 			e.printStackTrace();
