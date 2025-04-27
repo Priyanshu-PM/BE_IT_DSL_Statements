@@ -1,6 +1,6 @@
 -------------------------------------------------------------------
 
-Terminal 1:
+Terminal 1 (Server):
 
 idlj -fall ReverseModule.idl
 javac *.java ReverseModule/*.java
@@ -8,7 +8,7 @@ orbd -ORBInitialPort 1056&
 java ReverseServer -ORBInitialPort 1056& 
 -------------------------------------------------------------------
 
-Terminal 2:
+Terminal 2 (Client):
 
 java ReverseClient -ORBInitialPort 1056 -ORBInitialHost localhost
 -------------------------------------------------------------------
