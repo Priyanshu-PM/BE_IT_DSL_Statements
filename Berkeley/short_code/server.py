@@ -18,7 +18,7 @@ def start_server():
 
     # TODO: Change to 1 client when executing in a real environment
     # Accept 3 clients
-    for i in range(3):
+    for i in range(1):
         conn, addr = server_socket.accept()
         print(f"Client {i+1} connected from {addr}")
         client_sockets.append(conn)
