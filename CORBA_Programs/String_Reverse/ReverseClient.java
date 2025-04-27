@@ -3,7 +3,7 @@
 import ReverseModule.*; 
 import org.omg.CosNaming.*;
 import org.omg.CosNaming.NamingContextPackage.*;
-import org.omg. CORBA.*; 
+import org.omg.CORBA.*; 
 import java.io.*;
 
 class ReverseClient
