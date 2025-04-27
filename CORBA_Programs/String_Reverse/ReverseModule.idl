@@ -1,0 +1,5 @@
+module ReverseModule {
+    interface Reverse {
+        String reverse_string(String str);
+    };
+};
