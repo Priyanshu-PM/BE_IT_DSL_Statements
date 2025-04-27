@@ -1,5 +1,7 @@
-module ReverseModule {
-    interface Reverse {
-        String reverse_string(String str);
+module ReverseModule
+{
+    interface Reverse
+    {
+        string reverse_string(in string str);
     };
 };

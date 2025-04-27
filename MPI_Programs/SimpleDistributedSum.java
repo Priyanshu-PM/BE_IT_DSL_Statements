@@ -40,6 +40,8 @@ public class SimpleDistributedSum {
 
 //Steps to run this program 
 /*
+ * FOR WINDOWS SYSTEMS:
+
  * 1) Unzip the "mpjexpress" into the "C drive" of the machine such that "C:\mpjexpress"
  * 2) Steps to run the code 
  *      2.1) Set Environment Variables (Temporary, in your Command Prompt of the system not in VScode)
@@ -51,3 +53,12 @@ public class SimpleDistributedSum {
             mpjrun.bat -np 4 SimpleDistributedSum
             Here 4 means 4 process 
  */
+
+/*
+  * FOR LINUX SYSTEMS:
+
+  * export MPJ_HOME=/home/ubuntu/Downloads/mpj-v0_44
+  * export PATH=$MPJ_HOME/bin:$PATH
+  * javac -cp $MPJ_HOME/lib/mpj.jar ArrSum.java
+  * $MPJ_HOME/bin/mpjrun.sh -np 4 ArrSum
+*/
