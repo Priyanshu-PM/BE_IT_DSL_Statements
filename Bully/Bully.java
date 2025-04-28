@@ -81,7 +81,6 @@ public class Bully {
                     System.out.println("Process P " + id + " sends COORDINATOR message to Process P " + (i+1));
                 }
             }
-
         }
         else {
             System.out.println("Process P " + id + " waits for coordinator announcement");
